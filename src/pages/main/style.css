@@ -39,3 +39,31 @@
   background: #da552f;
   color: #FFF;
 }
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.actions button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #da552f;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.product-list .actions button[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.actions button:hover {
+  opacity: 0.9;
+  background-color: #da550f;
+}
